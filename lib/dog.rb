@@ -20,7 +20,7 @@ class Dog
   
   def self.print_all
     @@all.each do |dog|
-      puts dog.split(@name)
+      puts dog.split("@name")
     end
   end
 end
