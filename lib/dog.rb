@@ -18,6 +18,8 @@ class Dog
     @@all.clear 
   end
   
+  binding.pry
+  
   def self.print_all
     @@all.each do |dog|
       puts dog.split("@name")
